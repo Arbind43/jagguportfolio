@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+#coulmn1{
+
+    position:absolute;
+    
+
+}
+#coulmn2{
+    position: absolute;
+    margin-left: 450px;
+    
+    
+}
+#coulmn3{
+    position: absolute;
+    margin-left: 850px;
+    
+}

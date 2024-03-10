@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;  
+}
+.nav-bar{
+    background-color:#5e655d;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+.nav-bar ul{
+    display:inline-flex;
+    list-style: none;
+    padding:3px;
+    text-decoration: none;
+    
+}
+.nav-bar ul li {
+    width: 120px;
+    margin: 15px;
+    
+}
+.nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.nav-bar .fa{
+    margin: 8px;
+}
+.active,.nav-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.active,.nav-bar ul li:active{
+    background: #7a9e72;
+    border-radius: 3px;
+}
+
+.sub-bar{
+    display: none;
+}
+.nav-bar ul li:hover .sub-bar{
+    display:block;
+    position: absolute;
+    background-color:#5e655d;
+    color: white;
+    
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.nav-bar ul li:hover .sub-bar ul{
+    display:block ;
+}
+.nav-bar ul li:hover .sub-bar ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: trans;
+    border-radius: 0;
+    text-align: left;
+}
+.nav-bar ul li:hover .sub-bar ul li:last-child{
+    border-bottom: no;
+}
+.nav-bar ul li:hover .sub-bar ul li a :hover{
+    color:black;
+}
+
+
+.hero{
+   background-image: url(background.png);
+   background-size: cover;
+   height: 600px;
+}
+.bubbles img{
+    width: 50px;
+    animation:bubble 7s linear infinite; 
+}
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom:-70px;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+      50%{
+         
+         opacity: 1;
+    }
+      70%{
+        
+         opacity: 1;
+    }
+     100%{
+       transform: translateY(-80vh);
+       opacity: 0;
+    }
+}
+.bubbles img:nth-child(1){
+    width: 25px;
+    animation-delay:2s;
+}
+.bubbles img:nth-child(2){
+    animation-delay:1s;
+}
+.bubbles img:nth-child(3){
+    animation-delay:3s;
+}
+.bubbles img:nth-child(4){
+    animation-delay:4.5s;
+}
+.bubbles img:nth-child(5){
+    width: 15px;
+    animation-delay:3s;
+}
+.bubbles img:nth-child(6){
+    width: 20px;
+    animation-delay:6s;
+}
+.bubbles img:nth-child(7){
+    width: 35px;
+    animation-delay:7s;
+}
+h1{
+    color: #ffffffe1;
+    font-size: xxx-large;
+    margin-left: 200px;
+}
+small{
+    color:#ffffffe1 ;
+    font-size: larger;
+    margin-left: 200px;
+}
+.know-button{
+    background-color: rgb(193, 200, 200);
+    margin-left: 200px;
+    padding: 7px;
+    border-radius: 15px;
+    border-width: 1px;
+}
+.know-button:hover{
+    background-color: #555; 
+    color: white;
+}
+.fb{
+    height: 40px;
+    margin-left: 190px;
+}
+.fb:hover{
+    background-color: #555;
+    border-radius: 24px;
+}
+.tw{
+    height: 40px;   
+}
+.tw:hover{
+    background-color: #555;
+    border-radius: 24px;
+}
+.share{
+    height: 40px;   
+}
+.share:hover{
+    background-color: #555;
+    border-radius: 24px;
+}
+.ig{
+    height: 40px;   
+}
+.ig:hover{
+    background-color: #555;
+    border-radius: 24px;
+}
+.info{
+    height: 40px;
+}
+.info:hover{
+    background-color: #555;
+    border-radius: 24px;
+}
+.hero1{
+    background-image: url(img8.jpg);
+    
+}
+
+
